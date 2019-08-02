@@ -1,9 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <style> 
+  img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+} 
+  .container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  display: circle;
+  width: 900px;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  width: 40%;
+  opacity: 0;
+  transition: .2s ease-out;
+  background-color: yellow;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: purple;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+  </style>
     <title>Bootcampt Images!</title>
+    
   </head>
+  <body background="/assets/mmMyEyesAreBurning.png">
   <body>
-    <img src="" alt="" />
+    <!-- <img src="/assets/scary face redbubble.png" style="filter: hue-rotate(90deg); filter: opacity(50%); width:50%; "/> -->
+    <br>
+    <img src="/assets/moonboy.png" style="width: 50px; height: 500px; filter: drop-shadow(10px 10px 10px blue)"/>
+    <img src="/assets/moonboy.png" style="width: 80px; height: 500px; width: 70px; filter: drop-shadow(5px 5px 5px purple"/>
+    <img src="/assets/moonboy.png" style="width: 80px; height: 600px; width: 70px; filter: drop-shadow(5px 5px 5px red"/>
+    <img src="/assets/moonboy.png" style="width: 80px; height: 700px; width: 70px; filter: drop-shadow(5px 5px 5px maroon"/>
+    <img src="/assets/moonboy.png" style="width: 50px; height: 720px; width: 70px; filter: drop-shadow(5px 5px 5px yellow"/>
+    <img src="/assets/moonboy.png" style="width: 50px; height: 720px; width: 70px; filter: drop-shadow(5px 5px 5px orange"/>
+    <img src="/assets/moonboy.png" style="width: 80px; height: 600px; width: 70px; filter: drop-shadow(5px 5px 5px white"/>
+    <img src="/assets/moonboy.png" style="width: 80px; height: 500px; width: 70px; filter: drop-shadow(5px 5px 5px teal"/>
+    <img src="/assets/moonboy.png" style="width: 50px; height: 450px; filter: drop-shadow(10px 10px 10px blue)"/>   
+    <div class="container">
+      <img src="/assets/moon.png"/>
+      <div class="overlay">
+        <div class="text">WE LIKE THE MOON</div>
+      </div>
+  </div>
+  <img src="/assets/itme.png" style="filter: invert(100%); height: 60 px; width: 90 px"/>
+  <img src="assets/itme.png" style="filter: brightness(200%); width: 120 px; height: 15 px"/>
+  <p style="font-size: 130px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: white">BECAUSE IT IS CLOSE TO US !!!!! ! !  !!! !! ! ! ! ! !</p>
+  
+  <!-- <br>
+    <img src="/assets/kit kit.png" style="width:  50%; height: 50%" alt="Forlorn kitty asking when their spouse shall return from the war"/>
+    <img src="/assets/janet frame.png" style="width: 50%; height: 50%" alt="A hoard of redheads acting as the seminal New Zealand author Janet Frame. And me"/>
+    <img src="/assets/no new content.png" style="width: 50%; height: 50%" alt="me in my truest form"/>
+    <img src="assets/silly silly.png" style="width: 50%; height: 50%" alt="idk man idk what to tell you"/>
+    <img src="assets/panel_III.png" style="height: 50%; width: 50%" alt="me with hot sauce"/>
+    <img src="https://www.kathrynmccawley.com/uploads/6/9/5/2/69528021/published/toilet-seat.png?1546818788" style="width: 50%;height: 50%" alt="toilet seat covered in egg shells"/>
+    <video controls width="400">
+      <source src="/assets/AntiguaArchTL.mp4" type="video/mp4"/>
+    </video>
+    <iframe 
+      src="https://player.vimeo.com/video/232314479?color=ffffff&autoplay=1&muted=1" 
+      width="640" 
+      height="360" 
+      frameborder="0" 
+      allow="autoplay; fullscreen" allowfullscreen>
+    </iframe>
+    <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/6XdqMGBZjGM" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe> -->
+      
+
   </body>
 </html>

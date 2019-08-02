@@ -1,0 +1,43 @@
+
+.turn:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  display: inline;
+} 
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+display: circle;
+width: 900px;
+height: auto;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 40%;
+width: 40%;
+opacity: 0;
+transition: .2s ease-out;
+background-color: yellow;
+}
+
+.container:hover .overlay {
+opacity: 1;
+}
+
+.text {
+color: purple;
+font-size: 35px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
